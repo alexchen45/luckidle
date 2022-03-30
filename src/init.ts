@@ -7,8 +7,7 @@ import { START_DATE } from './logic/constants'
 
 useTitle(computed(() => `${t('name')} - ${t('description')}`))
 
-if (!initialized.value)
-  showHelp.value = true
+  showHelp.value = false
 
 watchEffect(() => {
   if (isPassed.value)
