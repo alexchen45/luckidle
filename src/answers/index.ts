@@ -1,6 +1,5 @@
 import { getHint } from '../logic'
-import json from 'https://alexchen45.github.io/luckidleAns.json' assert {type:"json"}
-
+import json from 'https://alexchen45.github.io/luckidleAns.json' assert {type:"json"};
 
 
 
