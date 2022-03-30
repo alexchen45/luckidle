@@ -1,8 +1,8 @@
 {
-  "version": "17.1.0",
+  "version": "17.0.21",
   "private": true,
   "scripts": {
-    "dev": "vite --port 4444",
+    "start": "vite --port 4444",
     "netlify": "netlify dev --port 3333 --targetPort 4444",
     "build": "vite build",
     "preview": "vite preview",
