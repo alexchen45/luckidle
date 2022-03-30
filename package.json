@@ -1,7 +1,8 @@
 {
+  "type": "module",
   "private": true,
   "scripts": {
-    "start": "vite --port 4444",
+    "start": "vite --port 4444 $PORT",
     "netlify": "netlify dev --port 3333 --targetPort 4444",
     "build": "vite build",
     "preview": "vite preview",
