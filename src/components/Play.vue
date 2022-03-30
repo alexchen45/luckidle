@@ -38,6 +38,10 @@ function handleInput(e: Event) {
   input.value = filterNonChineseChars(el.value).slice(0, 4)
   markStart()
 }
+function handleNewWord(e: Event){
+  const el2 = (e.target! as HTMLInputElement)
+  input.value = filterNonChineseChars(el.value).slice(0, 4)
+}
 function focus() {
   el.value?.focus()
 }
@@ -149,30 +153,17 @@ watchEffect(() => {
         </div>
       </Transition>
 
-      <template v-if="isDev">
-        <div h-200 />
-        <div op50 mb-2>
-          测试用
-        </div>
+      <template v-if=true>
+        <div h-20 />
+
         <div flex gap2>
-          <a
-            class="btn"
-            :href="`/?dev=hey&d=${dayNo - 1}`"
-          >
-            上一天
-          </a>
           <button
             class="btn"
             @click="reset"
           >
             重置
           </button>
-          <a
-            class="btn"
-            :href="`/?dev=hey&d=${dayNo + 1}`"
-          >
-            下一天
-          </a>
+
         </div>
       </template>
     </div>
