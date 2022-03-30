@@ -1,5 +1,4 @@
 {
-  "version": "17.0.21",
   "private": true,
   "scripts": {
     "start": "vite --port 4444",
