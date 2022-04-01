@@ -28,10 +28,10 @@ function enter() {
   inputValue.value = ''
 }
 function reset() {
-  tries.value.pop()
+  tries.value=[]
   meta.value.passed = false
-  //</HTMLInputElement>input.value = ''
-  //inputValue.value = ''
+  input.value = ''
+  inputValue.value = ''
 }
 function handleInput(e: Event) {
   const el = (e.target! as HTMLInputElement)
@@ -161,7 +161,7 @@ watchEffect(() => {
             class="btn"
             @click="reset"
           >
-            重置
+            bǒlí
           </button>
 
         </div>
