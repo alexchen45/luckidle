@@ -11,13 +11,13 @@ html.dark {
 }
 
 :root {
-  --c-primary: #ff6969;
-  --c-primary-deep: #ff6969;
-  --c-ok: #ff6969;
-  --c-mis: #257ede;
+  --c-primary: #ff8682;
+  --c-primary-deep: #ff8682;
+  --c-ok: #ff8682;
+  --c-mis: #ffd51f;
 }
 .dark {
-  --c-ok: #ff6969;
+  --c-ok: #ff8682;
 }
 
 p {

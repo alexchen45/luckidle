@@ -28,10 +28,10 @@ function enter() {
   inputValue.value = ''
 }
 function reset() {
-  tries.value = []
-  meta.value = {}
-  input.value = ''
-  inputValue.value = ''
+  tries.value.pop()
+  meta.value.passed = false
+  //</HTMLInputElement>input.value = ''
+  //inputValue.value = ''
 }
 function handleInput(e: Event) {
   const el = (e.target! as HTMLInputElement)
