@@ -6,7 +6,7 @@ import json from 'https://alexchen45.github.io/luckidleAns.json' assert {type:"j
 
 export function getAnswerOfDay(day: number) {
 
-  const [word = '', hint = ''] =  ['举个栗鹅', '鹅']
+  const [word = '', hint = ''] =  ['鲨好月圆', '鲨']
 
   return {
     word,
